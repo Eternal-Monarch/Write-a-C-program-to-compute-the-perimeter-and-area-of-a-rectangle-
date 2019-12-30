@@ -1,0 +1,17 @@
+#include <stdio.h>
+int
+main ()
+{
+  int a;
+  int b;
+  int x;
+  printf ("Enter the Height \n");
+  scanf ("%d", &a);
+  printf ("Enter the width \n");
+  scanf ("%d", &b);
+  x =  (a+a+b+b);
+  printf ("The perimeter of the Sqaure is  = %d \n", x);
+  printf ("Area of the rectangle =  %d \n", a * b);
+
+  return 0;
+}
